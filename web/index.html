@@ -94,5 +94,29 @@
       loadMainDartJs();
     }
   </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyDC6txIw6mNr00gNcBXXeYYRtpajep1oqM",
+      authDomain: "joseskitchenrecepies.firebaseapp.com",
+      projectId: "joseskitchenrecepies",
+      storageBucket: "joseskitchenrecepies.appspot.com",
+      messagingSenderId: "917103275994",
+      appId: "1:917103275994:web:4b0b1fe2d170b7540d5ae3",
+      measurementId: "G-XNRJ1PJWZV"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
 </html>
